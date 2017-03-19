@@ -27,4 +27,4 @@ COPY vhost.conf /etc/apache2/sites-enabled/vhost.conf
 
 VOLUME /magento
 WORKDIR /magento
-RUN rm -rf /var/www/html && ln -s /magento/pub /var/www/html
+#RUN rm -rf /var/www/html && ln -s /magento/pub /var/www/html
